@@ -16,7 +16,7 @@ export default function FinishPage(props) {
 
   return (
     <div className="p-5 ">
-      <h1 className="text-center fw-bold mb-5">Statement of Purpose</h1>
+      <h1 className="text-center fw-bold mb-5 mt-5">Statement of Purpose</h1>
      
       <p>
         From
@@ -108,10 +108,7 @@ export default function FinishPage(props) {
         <br />
         {name}
       </p>
-      <div className="d-flex justify-content-center m-5">
-      <button className="btn buttonNext ">Copy SOP</button>
-
-      </div>
+      
     </div>
   );
 }
